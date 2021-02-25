@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background:linear-gradient(30deg, rgb(25, 110, 189) 10%,rgb(82, 15, 160) 35%,  #11ac92);
+    /*background-image: linear-gradient(hsla(199, 100%, 74%, 0.938), hsl(0, 0%, 100%));*/
+}
+
+h1{
+    font-style: italic;
+    font-size: 3em;
+    color: white;
+
+}
+
+h2{
+    margin-top: -25px;
+    color: lightgray; 
+}
+h3{
+    text-align: center;
+
+}
+.titulo{
+    text-align: center;
+}
+.foto{
+    display: block;
+    margin: auto;
+    height: 15em;
+    width: auto;
+    border-radius: 50%;
+    position: center;
+}
+
+
+.contenedor{
+    padding: 20px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+.cuadro{
+    padding: 30px;
+    background-image: linear-gradient(hsla(157, 59%, 63%, 0.938), hsl(0, 0%, 100%));
+    box-shadow: 0 15px 19px hsl(268, 57%, 52%) ;
+}
+
+#datosP{
+    grid-column: 1 /span 2;
+    grid-row: 1  ;
+   
+}
+
+#estudios{
+    grid-column: 3 /span 4;
+    grid-row: 1  ;
+}
+#personal{
+    grid-column: 2 /span 2;
+    grid-row: 2  ;
+    
+
+}
